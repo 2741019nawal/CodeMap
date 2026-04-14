@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    
+}
+header{
+    width: 100%;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav .menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header nav.menu a{
+    text-decoration: #fff;
+    background-color:aquamarine;
+    display: flex;
+}
+
